@@ -1,0 +1,52 @@
+*{padding: 0;
+box-sizing: border-box;
+margin: 0;
+scroll-behavior: smooth;}
+
+body{background-image: url(https://preview.colorlib.com/theme/bitmap/img/banner/home-banner.jpg.webp);
+background-repeat: no-repeat;
+background-attachment: fixed;}
+
+header{height: 8.3vh;
+width: 100%;
+background: rgba(0, 0, 0, 0.5);
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+#home{margin-left: 150px;}
+
+.container{display: flex;
+margin-right: 8%;}
+
+.ml-auto{margin-left: auto;}
+
+.bar{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.nav-item{margin-right: 43px;}
+
+.nav-link{
+    color: white;
+    text-decoration: 0;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+#owner{color: #fcdc00;}
+
+#search1{margin-left: 165px;}
+
+#search{
+display: inline-block;
+fill: white;
+width: 15px;
+height: 15px;}
