@@ -41,7 +41,16 @@ header{
     justify-content: space-around;
 }
 
-.nav-item{margin-right: 43px;}
+.nav-item{
+    margin-right: 43px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.nav-item:hover>a{
+    color: #fcdc00;
+    transition: 0.5s;
+}
 
 .nav-link{
     color: white;
@@ -305,8 +314,8 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     padding: 0px 15px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .service-item{
@@ -370,6 +379,8 @@ header{
     margin-right: 90px;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    height: 70.6%;
 }
 
 .inst-pic>a{
