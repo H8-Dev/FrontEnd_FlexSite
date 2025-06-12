@@ -152,16 +152,18 @@ header{
 
 .pht{
     width: 100%;
-    height: 150vh;
+    height: 205vh;
     background-color: #f9f9ff;
     padding: 120px 0px;
 }
 
-.pht-div{display: flex;
+.pht-div1{display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
 
+#pht-div-a{
+    margin-top: 2%;
 }
 
 .pht-ul{
@@ -186,6 +188,13 @@ header{
     margin-right: 0px;
 }
 
+.pht li:hover{
+    background-color: #fcdc00;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
 .pht-li-a{
     text-decoration: 0;
     text-transform: uppercase;
@@ -194,6 +203,12 @@ header{
     font-weight: 600;
     line-height: 48px;
     padding: 0px 30px;;
+}
+
+#pht-owner{
+    background-color: #fcdc00;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .pht-a{
@@ -209,6 +224,107 @@ header{
     display: inline-block;
 }
 
+.pht-img{
+    overflow: hidden;
+    position: relative;
+    width: 382px;
+    height: 450px;
+    text-align: center;
+    padding: 0px 15px;
+    margin: 0px 0px 30px 30px;
+}
+
+.pht-img:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    transition: 0.6s;
+}
+
+.pht-img:hover>.pht-h4{
+    margin-top: 50%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.pht-img:hover>.pht-svg{
+    opacity: 1;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.pht-h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+    font-family: "Poppins",sans-serif;
+    margin-top: 90%;
+}
+
+.pht-svg{
+    fill: #fff;
+    width: 25px;
+    height: 30px;
+    opacity: 0;
+}
+
+/*---------Gallery--------- */
+
+.pht-div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 15px;
+}
+
+#galaxy{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-1.jpg.webp);
+}
+
+#phtw1{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-2.jpg.webp);
+}
+
+#beach{
+    background-image: url(beach.webp);
+}
+
+#phtw2{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-4.jpg.webp);
+}
+
+#phtw3{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-5.jpg.webp);
+}
+
+
+#street{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-6.jpg.webp);
+}
+
+#phtw4{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-7.jpg.webp);
+}
+
+#lake{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-8.jpg.webp);
+}
+
+#train{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-9.jpg.webp);
+}
+
+#umbrella{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-10.jpg.webp);
+}
+
+#shack{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-11.jpg.webp);
+}
+
+#hike{
+    background-image: url(https://preview.colorlib.com/theme/bitmap/img/gallery/gallery-12.jpg.webp);
+}
 
 /*---------Feedback--------- */
 
