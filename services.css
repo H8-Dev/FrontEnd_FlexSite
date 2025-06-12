@@ -161,119 +161,6 @@ header{
     transition: 0.5s;
 }
 
-/*---------Filler--------- */
-
-.filler{
-    height: 75vh;
-    width: 100%;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.filler>div>div{
-    background-color: #fff;
-    position: relative;
-    text-align: center;
-    z-index: 2;
-    padding: 45px 80px;
-    width: 650px;
-    height: 280px;
-    margin-top: -140px;
-    margin-left: 50px;
-    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-}
-
-.filler>div>div>h4{
-    color: #222222;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 22px;
-}
-
-.filler>div>div>p{
-    font-size: 14px;
-    color: #777777;
-    line-height: 24px;
-}
-
-
-/*---------Feedback--------- */
-
-.fdb{
-    background-color: #fcdc00;
-    width: 100%;
-    height: 55vh;
-    padding: 120px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.fdb-box1{
-    width: 585px;
-    height: 225px;
-    padding-top: 40px;
-}
-
-.fdb-box1>h4{
-    font-size: 36px;
-    font-weight: bold;
-    color: #222222;
-    margin-bottom: 18px;
-}
-
-.fdb-box1>p{
-    font-size: 14px;
-    color: #222222;
-    line-height: 24px;
-    font-weight: 300;
-    width: 430px;
-}
-
-
-
-.fdb-box2{
-    background-color: #FFFFFF;
-    width: 555px;
-    height: 225px;
-    padding: 40px 45px 40px 40px;
-    display: flex;
-}
-
-.fdb-box2>img{
-    width: 80px;
-    height: 80px;
-    margin-right: 30px;
-}
-
-.fdb-box2>div>p{
-    font-size: 14px;
-    color: #777777;
-    line-height: 24px;
-    font-weight: 300;
-    margin-bottom: 17px;
-    width: 360px;
-}
-
-.fdb-box2>div>h4{
-    font-size: 18px;
-    color: #222222;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-
-.fdb-box2>div>h6{
-    font-size: 14px;
-    color: #777777;
-    font-weight: 300;
-}
-
 
 /*---------Service--------- */
 .service{
@@ -318,7 +205,7 @@ header{
     margin-right: 15px;
     margin-left: 15px;
     width: 360px;
-    height: 201px;
+    height: 270px;
 }
 
 .service-item h4{
@@ -338,6 +225,12 @@ header{
 .service-item:hover{
     background-color: #fcdc00;
     transition: 0.5s;
+}
+
+.service-svg{
+    width: 42px;
+    height: 42px;
+    margin-bottom: 30px;
 }
 
 /*---------Insta--------- */
